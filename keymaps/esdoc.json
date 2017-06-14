@@ -1,0 +1,6 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-d": "esdoc:generate",
+    "ctrl-shift-d": "esdoc:generate"
+  }
+}
