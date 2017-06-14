@@ -1,5 +1,5 @@
 {
-  "name": "esdoc",
+  "name": "ESDoc",
   "main": "./lib/esdoc",
   "version": "0.0.1",
   "description": "A short description of your package",

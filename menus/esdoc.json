@@ -1,8 +1,8 @@
-{
+ESD{
   "context-menu": {
     "atom-text-editor": [
-      {
-        "label": "Generate",
+       {
+        "label": "Generate Block Documentation",
         "command": "esdoc:generate"
       }
     ]
@@ -12,10 +12,10 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "esdoc",
+          "label": "ESDoc",
           "submenu": [
             {
-              "label": "Generate",
+              "label": "Generate Block Documentation",
               "command": "esdoc:generate"
             }
           ]
