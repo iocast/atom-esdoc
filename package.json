@@ -1,9 +1,13 @@
 {
   "name": "esdoc",
   "main": "./lib/esdoc",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "Atom package for quick esdoc comment generation.",
-  "keywords": ["esdoc", "api", "doc"],
+  "keywords": [
+    "esdoc",
+    "api",
+    "doc"
+  ],
   "activationCommands": {
     "atom-workspace": [
       "esdoc:generate"
