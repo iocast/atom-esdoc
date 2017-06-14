@@ -2,7 +2,7 @@
 
 ![dependency status](https://david-dm.org/iocast/atom-esdoc.svg)
 
-Atom package for quick jsdoc comment generation.
+Atom package for quick esdoc comment generation.
 Forked from [Atom easy JSDoc by Tom Andrews](https://github.com/tgandrews/atom-easy-jsdoc)
 
 ## Install
