@@ -8,7 +8,7 @@ Forked from [Atom easy JSDoc by Tom Andrews](https://github.com/tgandrews/atom-e
 ## Install
 
 ```bash
-apm install atom-easy-jsdoc
+apm install esdoc
 ```
 
 ## Usage
