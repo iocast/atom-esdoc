@@ -48,7 +48,6 @@ I'll be adding features periodically, however bug fixes, feature requests, and p
 ## Release
 
 * Add info to `CHANGELOG.md`.
-* Bump new version to `package.json`.
 * Push evertyhing
 
 Update registry:
