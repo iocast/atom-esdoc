@@ -43,3 +43,10 @@ Comments now are automatically continued if the user hits enter (new line event)
 
 ## Contribute
 I'll be adding features periodically, however bug fixes, feature requests, and pull requests are all welcome.
+
+
+## Release
+
+```
+/Applications/Atom.app/Contents/Resources/app/apm/bin/apm publish vX.X.X
+```
