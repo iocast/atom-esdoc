@@ -47,6 +47,12 @@ I'll be adding features periodically, however bug fixes, feature requests, and p
 
 ## Release
 
+* Add info to `CHANGELOG.md`.
+* Bump new version to `package.json`.
+* Push evertyhing
+
+Update registry:
+
 ```
 /Applications/Atom.app/Contents/Resources/app/apm/bin/apm publish vX.X.X
 ```
