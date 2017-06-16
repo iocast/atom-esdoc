@@ -1,3 +1,6 @@
+## 0.0.4
+* autocompletion
+
 ## 0.0.3
 * class, method, getter, setter support
 

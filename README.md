@@ -39,7 +39,12 @@ var a = 'A';
 
 ## Autocontinue
 
-Comments now are automatically continued if the user hits enter (new line event) while inside of a block (`/**...` etc.).
+Comments now are automatically continued if the user hits enter (new line event) while inside of a block (`/**...`, `//` etc.).
+
+## Autocompletion
+
+Pressing **enter** or **tab** after `/**` will yield a new line and will close the comment, if the following line is a valid JavaScript code.
+
 
 ## Contribute
 I'll be adding features periodically, however bug fixes, feature requests, and pull requests are all welcome.
