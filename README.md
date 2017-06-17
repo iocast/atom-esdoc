@@ -1,6 +1,8 @@
 # Atom ESDoc package
 
 ![dependency status](https://david-dm.org/iocast/atom-esdoc.svg)
+![GitHub version](https://badge.fury.io/gh/iocast%2Fatom-esdoc.svg)
+
 
 Atom package for quick esdoc comment generation.
 Forked from [Atom easy JSDoc by Tom Andrews](https://github.com/tgandrews/atom-easy-jsdoc)
