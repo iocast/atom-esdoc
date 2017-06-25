@@ -1,3 +1,6 @@
+## v0.0.6
+* additional data type for class attribute
+
 ## v0.0.5
 * added MemberExpression for class attributes
 
