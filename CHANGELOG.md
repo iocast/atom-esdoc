@@ -1,3 +1,6 @@
+## 0.0.5
+* added MemberExpression for class attributes
+
 ## 0.0.4
 * autocompletion
 
