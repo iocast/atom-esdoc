@@ -1,7 +1,7 @@
 {
   "name": "esdoc",
   "main": "./lib/esdoc",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Atom package for quick esdoc comment generation.",
   "keywords": [
     "esdoc",
