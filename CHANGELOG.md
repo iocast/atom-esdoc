@@ -1,3 +1,6 @@
+## v0.0.7
+* added exception support
+
 ## v0.0.6
 * additional data type for class attribute
 
