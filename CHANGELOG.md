@@ -1,3 +1,7 @@
+## v0.1.0
+* does not start with ` * ` when line ends with `*/`
+* lot of small improvements
+
 ## v0.0.7
 * added exception support
 
