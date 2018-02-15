@@ -21,7 +21,7 @@ To add comments for any piece of code, position the cursor anywhere on the line 
 ```javascript
 /**
  * functionComment - description
- *  
+ *
  * @param  {type} argA description
  * @param  {type} argB description
  * @param  {type} argC description
@@ -55,7 +55,7 @@ I'll be adding features periodically, however bug fixes, feature requests, and p
 ## Release
 
 * Add info to `CHANGELOG.md`.
-* Push evertyhing
+* Push everything
 
 Update registry:
 
