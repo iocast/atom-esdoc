@@ -1,4 +1,4 @@
-## v0.1.2
+## v0.2.0
 * added `ObjectExpression`: `test(options = { a: false, update: b, test: { var1: 1 } }) { ...` is not supported
 
 ## v0.1.0
