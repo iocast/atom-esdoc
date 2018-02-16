@@ -35,7 +35,6 @@ export class test {
     this.name = value;
   }
 
-
   /**
    * calculate
    *
@@ -62,6 +61,21 @@ export class test {
     return "";
   }
 
+  /**
+   * testWithDefaultValues
+   *
+   * @param {Object}	options - this is the parameter options
+   * @param {Boolean}	options.propA - this is the parameter propA
+   * @param {Boolean}	options.propB - this is the parameter propB
+   * @param {Object}	options.test - this is the parameter test
+   * @param {Number}	options.test.var1 - this is the parameter var1
+   *
+   * @throws {TypeError}
+   */
+  testWithDefaultValues(options = { propA: false, propB: false, test: { var1: 1 } }) {
+    throw new TypeError();
+  }
+
 }
 
 
@@ -74,16 +88,33 @@ async function test(param1) {
 
 }
 
+/**
+ * testWithDefaultValues
+ *
+ * @param {Object}	options - this is the parameter options
+ * @param {Boolean}	options.insert - this is the parameter insert
+ * @param {Boolean}	options.update - this is the parameter update
+ * @param {Object}	options.test - this is the parameter test
+ * @param {Number}	options.test.var1 - this is the parameter var1
+ *
+ * @throws {TypeError}
+ */
+function testWithDefaultValues(options = { insert: false, update: false, test: { var1: 1 } }) {
+  throw new TypeError();
+}
+
 
 /**
  * test_func
  *
  * @param {type}	hello - this is the parameter hello
+ *
+ * @return {String}
+ *
  */
 function test_func(hello) {
   return "";
 }
-
 
 /** @type {Array} */
 const ab = new Array();
@@ -92,14 +123,12 @@ const ab = new Array();
 /** @type {Array} */
 const [asd, def] = test_fun();
 
-
-/** @type {object} */
+/** @type {Object} */
 var test = {
   hello: ["test", {
     abc: 1
   }]
 }
 
-
-/** @type {string} */
+/** @type {String} */
 const test = "hello";

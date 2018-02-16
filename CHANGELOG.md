@@ -1,3 +1,6 @@
+## v0.1.2
+* added `ObjectExpression`: `test(options = { a: false, update: b, test: { var1: 1 } }) { ...` is not supported
+
 ## v0.1.0
 * does not start with ` * ` when line ends with `*/`
 * lot of small improvements
