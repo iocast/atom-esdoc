@@ -1,5 +1,5 @@
 {
-  "name": "esdoc",
+  "name": "atom-esdoc",
   "main": "./lib/esdoc",
   "version": "0.2.1",
   "description": "Atom package for quick esdoc comment generation.",
@@ -8,6 +8,9 @@
     "api",
     "doc"
   ],
+  "scripts": {
+    "build-doc": "./node_modules/.bin/esdoc"
+  },
   "activationCommands": {
     "atom-workspace": [
       "esdoc:generate"
@@ -32,5 +35,10 @@
   "dependencies": {
     "babel-traverse": "^6.25.0",
     "babylon": "^6.17.3"
+  },
+  "devDependencies": {
+    "esdoc": "^1.0.4",
+    "esdoc-ecmascript-proposal-plugin": "^1.0.0",
+    "esdoc-standard-plugin": "^1.0.0"
   }
 }

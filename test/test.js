@@ -1,9 +1,38 @@
+/**
+ * TestClass
+ *
+ */
+class TestClass {
+
+  /** @type {String} */
+  get name() {
+    return "John";
+  }
+
+
+  /**
+   * doSomething
+   *
+   * @param {Object}	options - this is the parameter options
+   * @param {Boolean}	options.dryRun - this is the parameter dryRun
+   *
+   * @return {Object}
+   *
+   */
+  doSomething(options = { dryRun: true }) {
+    return {
+      test: "abc"
+    }
+  }
+}
+
 
 /**
  * test
  *
  */
-export class test {
+export class ExportedTestClass {
+
 
   /**
    * constructor
@@ -25,41 +54,41 @@ export class test {
     return 123;
   }
 
-  /** @type {<type>} */
   get name() {
     return this.name;
   }
 
-  /** @type {Object} */
   set name(value = {}) {
     this.name = value;
   }
+
 
   /**
    * calculate
    *
    * @param {String}	a - this is the parameter a
    * @param {Number}	b - this is the parameter b
-   * @param {type}	c - this is the parameter c
+   * @param {<type>}	c - this is the parameter c
    *
    * @return {String}
    *
-   * @throws {Error} - test
+   * @throws {Error}
    * @throws {Error}
    */
   calculate(a = "asdfasdf", b = 122, c) {
     this.name = a;
-    if(a === b) {
+    if (a === b) {
       throw new Error("test");
     }
 
-    for(let i = 0; i < c.length; i++) {
-      if(b === c) {
-        throw new  Error();
+    for (let i = 0; i < c.length; i++) {
+      if (b === c) {
+        throw new Error();
       }
     }
     return "";
   }
+
 
   /**
    * testWithDefaultValues
@@ -79,14 +108,17 @@ export class test {
 }
 
 
+
 /**
- * test
+ * testAsyncFuntion
  *
- * @param {type}	param1 - this is the parameter param1
+ * @param {<type>}	param1 - this is the parameter param1
+ *
  */
-async function test(param1) {
+async function testAsyncFuntion(param1) {
 
 }
+
 
 /**
  * testWithDefaultValues
@@ -105,23 +137,28 @@ function testWithDefaultValues(options = { insert: false, update: false, test: {
 
 
 /**
- * test_func
+ * testFunction
  *
- * @param {type}	hello - this is the parameter hello
+ * @param {<type>}	hello - this is the parameter hello
  *
  * @return {String}
  *
  */
-function test_func(hello) {
+function testFunction(hello) {
   return "";
 }
 
+
+
 /** @type {Array} */
-const ab = new Array();
+const justAnArray = new Array();
+
+
 
 
 /** @type {Array} */
 const [asd, def] = test_fun();
+
 
 /** @type {Object} */
 var test = {
@@ -130,5 +167,22 @@ var test = {
   }]
 }
 
+
 /** @type {String} */
 const test = "hello";
+
+
+/** @type {undefined} */
+export const foo = Math.sqrt(2);
+
+
+
+/** @type {Number} */
+/** @type {String} */
+export let testNumber = 5, testString2 = "hello";
+
+
+export let testString = "hello";
+
+
+export { name as name2, steet as steet2 } from './exports';
